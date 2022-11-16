@@ -1,0 +1,67 @@
+
+.navbar{
+    position: fixed;
+    z-index: 1000;
+    width: 99vw;
+}
+.navbar-brand{
+    border: 2px solid yellow;
+    font-size: 25px;
+    box-shadow: 5px 5px 12px yellow;
+    width: 200px;
+    text-align: center;
+
+}
+.navbar .nav-link:hover{
+    border-bottom: 2px solid white;
+    background-color:red;
+
+}
+
+.carousel-item img{
+    height: 90%;
+}
+
+.Services{
+    height: 100%;
+    /* border: 1px solid green; */
+}
+
+.Services-cols{
+/* border: 1px solid black; */
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+   
+}
+.card{
+    position: relative;
+    padding: 40px 40px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+    background-color: lightgrey;
+
+}
+
+.card img{
+    transform: translateY(-70px);
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+}
+.services-cols .card:hover{
+    transition: all ease 0.4s;
+    margin-top: -15px;
+}
+.inner-about img{
+    height: 300px;
+    width: 300px;
+}
+.card-title{
+    
+    text-align: center;
+}
+.card-body .card-title:hover{
+    border-bottom: 2px solid white;
+    
+
+}
